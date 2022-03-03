@@ -1,12 +1,16 @@
 # 22-1 ESC Final Project Guideline
 
-## Team building
+## Team Building
+. 
 
 ## Goal
+. 
 
 ## Workflow
+. 
 
 ## datasets
+. 
 
 ## Reference
-
+. 
