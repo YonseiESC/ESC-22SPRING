@@ -32,5 +32,5 @@
 Ovidiu Calin (2022). *Deep Learning Architecture - a Mathematical Approach*. Springer.
 
 # 세션 영상 유튜브 링크
-220310 week 2 : Optimization and Basic NN Architecture - https://youtu.be/pyHoM7Yr36o 
+220310 week 2 : Optimization and Basic NN Architecture - https://youtu.be/pyHoM7Yr36o \
 220317 week 3 : Universal Approximation Theorem - https://www.youtube.com/watch?v=dUFqH3B7_i0&t=5078s
