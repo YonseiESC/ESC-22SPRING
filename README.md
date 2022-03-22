@@ -16,9 +16,9 @@
 |week 8|중간고사| |
 |week 9|휴식| |
 |week 10|어린이날| |
-|week 11|Bayesian Neural Network(5/12)|Alumni 연사특강(3)|
+|week 11|Bayesian Neural Network(5/12)|민승현 선배님 연사특강|
 |week 12|파이널 프로젝트 중간 발표(5/19)| |
-|week 13|파이널 프로젝트 최종 발표(5/26)|Alumni 연사특강(4)|
+|week 13|파이널 프로젝트 최종 발표(5/26)|손동규 선배님 연사특강|
 |week 14|기말고사 준비| |
 |week 15|기말고사 | |
 |week 16|기말고사 | |
@@ -33,4 +33,5 @@ Ovidiu Calin (2022). *Deep Learning Architecture - a Mathematical Approach*. Spr
 
 # 세션 영상 유튜브 링크
 220310 week 2 : Optimization and Basic NN Architecture - https://youtu.be/pyHoM7Yr36o \
-220317 week 3 : Universal Approximation Theorem - https://www.youtube.com/watch?v=dUFqH3B7_i0&t=5078s
+220317 week 3 : Universal Approximation Theorem - https://www.youtube.com/watch?v=dUFqH3B7_i0&t=5078s \
+
