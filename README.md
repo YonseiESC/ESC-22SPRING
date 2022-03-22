@@ -25,8 +25,8 @@
 
 # 자율스터디
 - Bayesian Neural Network(임선우)
-- Bayesian Approaches of Uncertainty Quantification(박상용)
 - 수리통계학(박웅준)
+- Data Analysis with explainability(고정민)
 
 # 정규세션 교재
 Ovidiu Calin (2022). *Deep Learning Architecture - a Mathematical Approach*. Springer.
