@@ -10,7 +10,7 @@
 |week 2|Optimization and Basic NN architecture(3/10)<br/>발제자: 김민수, 박상용|김세정 선배님 연사특강|
 |week 3|Universal Approximator(3/17)<br/>발제자: 고정민, 김예찬, 이미르| |
 |week 4|Information Processing(3/24)<br/> 발제자: 김송희, 박태주| 박광문 선배님 연사특강|
-|week 5|Geometric Inpretation(3/31)<br/>발제자: 강미루, 이도형| |
+|week 5|Geometric Interpretation(3/31)<br/>발제자: 강미루, 이도형| |
 |week 6|Generative model - GAN(4/7)<br/>발제자: 김두은, 윤이경, 정유진| |
 |week 7|중간고사 준비| |
 |week 8|중간고사| |
