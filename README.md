@@ -35,4 +35,6 @@ Ovidiu Calin (2022). *Deep Learning Architecture - a Mathematical Approach*. Spr
 220310 week 2 : Optimization and Basic NN Architecture - https://youtu.be/pyHoM7Yr36o \
 220317 week 3 : Universal Approximation Theorem - https://www.youtube.com/watch?v=dUFqH3B7_i0&t=5078s \
 220324 week 4 : Information Processing - https://www.youtube.com/watch?v=HETeyZX-qE4 \
+220331 week 5 : Geometric Interpretation - https://www.youtube.com/watch?v=0BU66Vv8lQM / 
+220407 week 6 : Generative Model - 
 
