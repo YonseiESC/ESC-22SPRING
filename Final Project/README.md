@@ -1,5 +1,13 @@
 # 22-1 ESC Final Project Guideline
 
+## choose dataset
+
+각 조에서 어떤 데이터셋을 가지고 파이널 프로젝트를 진행할지 선택합니다. 아래 소개된 데이터셋 중에서 선택해도 되고, 다른 컴피티션의 데이터셋을 사용해도 됩니다. 소개된 데이터셋이 아닌 다른 컴피티션의 데이터셋을 사용하고 싶다면 [Kaggle Competitions](https://www.kaggle.com/competitions)에 접속해서 찾아보시면 됩니다. 
+
+## week 1
+
+## week 2
+
 ## Workflow
 
 **1주차 : Choose dataset / Pre-processing / Feature Extraction / EDA+Visualization**
