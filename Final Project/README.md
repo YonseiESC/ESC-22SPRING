@@ -14,17 +14,15 @@
 
 2. [**UNIFESP X-ray Body Part Classifier**](https://www.kaggle.com/competitions/unifesp-x-ray-body-part-classifier/overview)
 - MNIST와 비슷한 이미지 분류 문제입니다. 
-- 신체 각 부위를 찍은 엑스레이 이미지를 사용해 각 이미지가 어느 
-- 
-- 이미지 분류 문제입니다! 각 엑스레이 이미지를 가지고 그 사진이 신체의 어느 부분을 찍은 것인지를 예측하는 문제
-- MNIST와 비슷하게 성능을 끌어올리는 것이 목표
+- 신체 각 부위를 찍은 엑스레이 이미지를 사용해 각 이미지가 어느 신체 부위 이미지인지 분류하는 컴피티션입니다. 
 
 이 외에도 [Kaggle Competitions](https://www.kaggle.com/competitions)에서 image/video/vision 등을 검색해보시면 다양한 CV 컴피티션을 찾을 수 있습니다. 
 
 🗂 **time series dataset examples**
 
 1. [**Store Sales - Time Series Forecasting**](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview)
-- 날짜별로 어떤 가게의 어떤 물품이 얼마만큼 팔렸는지를 에측하는 문제, 
+- 날짜별로 어떤 가게의 어떤 물품이 얼마만큼 팔렸는지를 예측하는 컴피티션입니다. 
+- train data 외에도 다양한 정보가 제공되기 때문에 이 정보들을 활용하는 
 - 기본 컴피티션이긴 하지만, train데이터셋 외에도 다양한 정보가 제공되기 때문에 이 정보들을 어떻게 활용할지가 관건인 컴피티션입니다! 
 
 2. [**COVID19 Global Forecasting (Week 4)**](https://www.kaggle.com/competitions/covid19-global-forecasting-week-4/overview)
