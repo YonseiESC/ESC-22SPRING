@@ -27,7 +27,7 @@
 2. [**COVID19 Global Forecasting (Week 4)**](https://www.kaggle.com/competitions/covid19-global-forecasting-week-4/overview)
 - 세계 각국의 코로나 확진자, 사망자 추이 예측 문제입니다. 
 - 이 데이터셋의 경우 국가와 날짜 정보 외에는 feature로 사용할만한 데이터가 없어서 프로젝트를 진행하기에 어려운 점이 있을 수 있습니다. 
-- 이럴 때에는 외부 데이터를 찾아서 활용하거나, 다양한 아키텍처들을 비교하는 형식으로 프로젝트를 진행해볼 수 있을 것 같습니다! 
+- 이럴 때에는 외부 데이터를 찾아서 활용하거나, 다양한 아키텍처들을 비교하는 형식으로 프로젝트를 진행해볼 수 있을 것 같습니다. 
 
 3. [**G-Research Crypto Forecasting**](https://www.kaggle.com/competitions/g-research-crypto-forecasting/overview)
 - 시가, 종가, 거래량 등의 feature를 사용해 여러가지 가상화폐의 수익을 예측하는 컴피티션입니다
@@ -70,15 +70,10 @@
 
 - **Evaluation** : 분석 과제에 맞게 metric을 정하고 그를 바탕으로 모델의 성능을 평가합니다. 캐글 컴피티션의 경우 overview > evaluation 에 들어가면 어떤 score를 사용하는지를 확인하실 수 있습니다.
 
-👩‍🏫 **최종발표(5/27 목)** 2주간 파이널 프로젝트를 수행한 내용을 팀별로 15분 이내로 발표해주세요. 어떤 모델을 사용했는지, 왜 그 모델을 선택했는지, 다른 모델과 비교해보았을 때  score가 어떻게 개선되었는지 등을 공유해주시면 됩니다. 진행하면서 어려웠던 점이나 아쉬웠던 점, 궁금했던 점들 공유해주셔도 됩니다. 
+👩‍🏫 **최종발표(5/27 목)** 2주간 파이널 프로젝트를 수행한 내용을 팀별로 15분 이내로 발표해주세요. 어떤 모델을 사용했는지, 왜 그 모델을 선택했는지, 다른 모델과 비교해보았을 때  score가 어떻게 개선되었는지 등을 종합적으로 공유해주시면 됩니다. 진행하면서 어려웠던 점이나 아쉬웠던 점, 궁금했던 점들 공유해주셔도 됩니다. 
 
 ## Reference
 
-- 컴피티션 
-각 컴피티션 리더보드
-
-이전기수 파이널프로젝트 repository
-
-https://towardsdatascience.com/baseline-models-your-guide-for-model-building-1ec3aa244b8d
-
-towards data science articles
+- kaggel competition > code 에 들어가시면 다른 사람들이 올려놓은 코드를 확인하실 수 있습니다. 
+- ESC 이전 기수 파이널 프로젝트 github repository
+- 구글링 또 구글링,,,
