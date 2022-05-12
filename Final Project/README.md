@@ -2,36 +2,50 @@
 
 ## choose dataset
 
-각 조에서 어떤 데이터셋을 가지고 파이널 프로젝트를 진행할지 선택합니다. 아래 소개된 데이터셋 중에서 선택해도 되고, 다른 컴피티션의 데이터셋을 사용해도 됩니다. 소개된 데이터셋이 아닌 다른 컴피티션의 데이터셋을 사용하고 싶다면 [Kaggle Competitions](https://www.kaggle.com/competitions)에 접속해서 찾아보시면 됩니다. (cv keyword: image/video/vision 등, time series keyword: time/forecast 등)
+각 조에서 어떤 데이터셋을 가지고 파이널 프로젝트를 진행할지 선택합니다. 아래 소개된 데이터셋 중에서 선택해도 되고, 다른 컴피티션의 데이터셋을 사용해도 됩니다. 소개된 데이터셋이 아닌 다른 컴피티션의 데이터셋을 사용하고 싶다면 [Kaggle Competitions](https://www.kaggle.com/competitions)에 접속해서 찾아보시면 됩니다. 
 
-**cv dataset examples**
+🗂 **cv dataset examples**
 
-- [Digit Recognizer](https://www.kaggle.com/competitions/digit-recognizer-  ㅇ
-- [UNIFESP X-ray Body Part Classifier](https://www.kaggle.com/competitions/unifesp-x-ray-body-part-classifier/overview)
+1. [**Digit Recognizer**](https://www.kaggle.com/competitions/digit-recognizer)
+- 지금까지 많이 접했었던 MNIST 데이터셋입니다! 손글씨 이미지 데이터를 통해 그것이 무슨 숫자인지 예측하는 데이터셋
+- 이런 경우에 단순히 모델 하나를 적용하기 보다는 다양한 모델을 적용해서 비교해보기도 하고, 데이터 전처리를 통해 데이터의 수를 늘려보기도 하고, 하이퍼파라미터 튜닝을 통해 최적의 모델을 찾는 등 성능을 최고로 끌어내는 것을 목표로 삼아볼 수 잇겠죠! 
 
-**time series dataset examples**
+2. [**UNIFESP X-ray Body Part Classifier**](https://www.kaggle.com/competitions/unifesp-x-ray-body-part-classifier/overview)
+- 이미지 분류 문제입니다! 각 엑스레이 이미지를 가지고 그 사진이 신체의 어느 부분을 찍은 것인지를 예측하는 문제
+- MNIST와 비슷하게 성능을 끌어올리는 것이 목표
 
-- [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview)
-- [COVID19 Global Forecasting (Week 4)](https://www.kaggle.com/competitions/covid19-global-forecasting-week-4/overview)
-- [G-Research Crypto Forecasting](https://www.kaggle.com/competitions/g-research-crypto-forecasting/overview)
-- [Ubiquant Market Prediction](https://www.kaggle.com/competitions/ubiquant-market-prediction/overview)
+이 외에도 [Kaggle Competitions](https://www.kaggle.com/competitions)에서 image/video/vision 등을 검색해보시면 다양한 CV 컴피티션을 찾을 수 있습니다. 
 
-1. 날짜별로 어떤 가게의 어떤 물품이 얼마만큼 팔렸는지를 예측하는 문제! getting started이긴 한데 추가적으로 주어지는 데이터들이 많아서 각팀이 얼마만큼 하느냐에 달린 문제일 것 같음!
-https://www.kaggle.com/competitions/store-sales-time-series-forecasting/code 
+🗂 **time series dataset examples**
 
-2. 코로나 확진자, 사망자 예측문제! 국가랑 날짜 정보 외에는 제공되는 데이터가 없어서 힘들것같기도…(그냥 예측하긴 쉽겠지만 더 뭐 할게 없어서 발표할 내용이 없을 것 같아서 힘들것같다는 의미)
-https://www.kaggle.com/competitions/covid19-global-forecasting-week-4/data 
+1. [**Store Sales - Time Series Forecasting**](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview)
+- 날짜별로 어떤 가게의 어떤 물품이 얼마만큼 팔렸는지를 에측하는 문제, 
+- 기본 컴피티션이긴 하지만, train데이터셋 외에도 다양한 정보가 제공되기 때문에 이 정보들을 어떻게 활용할지가 관건인 컴피티션입니다! 
 
-3. 가상화폐 가격예측 문제! 여러개의 가상화폐들에 대해서 시가, 종가, 거래량으로 수익을 예측하는 문제
-https://www.kaggle.com/competitions/g-research-crypto-forecasting/data?select=train.csv 
 
-4. 이것도 비슷한 가격 에측 문제..! 근데 데이터 용량이 엄청 크다… 3번이랑 비슷해서 빼도 될 것 같기도… 
-https://www.kaggle.com/competitions/ubiquant-market-prediction/data 
+2. [**COVID19 Global Forecasting (Week 4)**](https://www.kaggle.com/competitions/covid19-global-forecasting-week-4/overview)
+- 세계 각국의 코로나 확진자, 사망자 추이 예측 문제입니다. 4주차만 걸어놨지만 1주차부터 5주차까지의 데이터를 확인하실 수 있습니다. 
+- 다만 국가와 날짜 정보 외에는 feature 로 사용할만한 데이터가 없어서 파이널 프로젝트로 진행하기에는 조금 어려울 수 있을 것 같습니다. 
+- 다만 외부 데이터를 찾아서 활용하거나, 다양한 시계열 예측 모델들을 적용해서 비교해보거나, 성능을 최대한 향상시키는 방향으로 진행해볼 수 있습니다 
 
+3. [**G-Research Crypto Forecasting**](https://www.kaggle.com/competitions/g-research-crypto-forecasting/overview)
+- 여러가지 가상화폐의 시가, 종가, 거래량 등의 정보를 통해 수익을 예측하는 문제입니다! 
+
+4. [**Ubiquant Market Prediction**](https://www.kaggle.com/competitions/ubiquant-market-prediction/overview)
+- 3번과 비슷한 가격 에측문제입니다! 
+- 이런 데이터셋의 경우 용량이 엄청 크기 때문에 이점 유의하셔서 선택해주셔야 합니다. 
+
+이 외에도 [Kaggle Competitions](https://www.kaggle.com/competitions)에서 time/forecast 등을 검색해보시면 다양한 시계열 예측 컴피티션을 찾을 수 있습니다. 
 
 ## week 1
 
+👩‍🏫 **중간점검(5/19 목)** 조별로 돌아가면서 10분 내외로 간단하게 현재까지 진행상황 발표해주시면 됩니다. 프로젝트의 목표, 데이터 개형, 1주차 수행 결과 및 앞으로의 계획, 진행하면서 어려운 점이나 궁금한 점 등을 공유해주시면 됩니다. 
+
 ## week 2
+
+👩‍🏫 **최종발표(5/27 목)** 2주간 파이널 프로젝트를 수행한 내용을 팀별로 15분 이내로 발표해주세요. 어떤 모델을 사용했는지, 왜 그 모델을 선택했는지, 다른 모델과 비교해보았을 때  score가 어떻게 개선되었는지 등을 공유해주시면 됩니다. 진행하면서 어려웠던 점이나 아쉬웠던 점, 궁금했던 점들 공유해주셔도 됩니다. 
+
+
 
 ## Workflow
 
@@ -51,8 +65,6 @@ https://www.kaggle.com/competitions/ubiquant-market-prediction/data
 - **EDA+Visualization** : EDA는 Pre-Processing과 Feature Extraction과 병행하여 데이터에 대해 알아가는 1주차 전반에 걸쳐 시행합니다. 기본적인 기술통계량이나 skewness를 보거나, normal assumption을 적용할 수 있는지, 변수 재정의가 필요하지는 않은지 파악합니다. 또한, 데이터의 분포를 눈으로 파악하는 것이 직관을 줄 수 있습니다. 설명변수와 응답변수 간, 혹은 설명변수 간의 산점도를 그려 선형/비선형 관계를 파악하거나, 데이터 이해에 도움이 되는 시각화를 해봅니다.
 
 📚 reference : 1주차 / 5주차 데이터 분석 예시 노트북, 공모전 리더보드, ESC 예전 파이널 프로젝트 repo 등등!
-
-cv 팀으 이렇게 전처리가 많이 필요하지 않을텐데...
 
 
 👩🏻‍💻 **중간점검 (Week 10 : May 27th)** : 다음 주 세션에서 이번학기 새로 부임하신 정성현 교수님이 30분 정도 짧게 특강을 해 주실 예정입니다! 교수님 특강 후에 조별로 돌아가면서 10분 내외로 간단하게 소개한 데이터 설명, 1주차 수행 결과를 간단히 발표해주시고, 어려운 점이나 궁금한 점을 공유해주시면 됩니다.
@@ -79,20 +91,6 @@ Bayesian Linear Regression 방법을 사용해 전 주에 준비한 설명변수
   
 
 👩🏻‍💻 **최종 발표 (Week 11 : June 3rd)** : 2주 간 파이널 프로젝트를 수행한 내용을 팀별로 15분 이내로 발표해주세요. 뉴럴넷이나 부스팅 등의 방법을 사용하지 않기 때문에 score 자체는 좋지 않을 수도 있습니다. 이번 프로젝트에서는 결과가 좋지 않더라도 왜 좋지 않았을지 생각해본 내용이나 improvement 등을 고민해보시고 발표해주세요. 한 학기동안 배운 내용과 연관지어 결과를 잘 해석하고 모델과 변수를 잘 설명하는 게 중요합니다!
-
-## datasets
-
-data 소개 - goal - link - 특이사항 및 조언(?)
-
-cv
-https://www.kaggle.com/competitions/digit-recognizer/leaderboard
-https://www.kaggle.com/competitions/unifesp-x-ray-body-part-classifier/data
-
-
-time series
-https://www.kaggle.com/competitions/store-sales-time-series-forecasting/code
-https://www.kaggle.com/competitions/ubiquant-market-prediction/data
-
 
 
 ## Reference
