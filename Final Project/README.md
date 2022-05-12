@@ -22,20 +22,20 @@
 
 1. [**Store Sales - Time Series Forecasting**](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview)
 - 날짜별로 어떤 가게의 어떤 물품이 얼마만큼 팔렸는지를 예측하는 컴피티션입니다. 
-- train data 외에도 다양한 정보가 제공되기 때문에 이 정보들을 활용하는 
-- 기본 컴피티션이긴 하지만, train데이터셋 외에도 다양한 정보가 제공되기 때문에 이 정보들을 어떻게 활용할지가 관건인 컴피티션입니다! 
+- train data 외에도 다양한 정보가 제공되기 때문에 이 정보들을 잘 활용하는 것이 관건인 컴피티션이라고 볼 수 있습니다. 
 
 2. [**COVID19 Global Forecasting (Week 4)**](https://www.kaggle.com/competitions/covid19-global-forecasting-week-4/overview)
-- 세계 각국의 코로나 확진자, 사망자 추이 예측 문제입니다. 4주차만 걸어놨지만 1주차부터 5주차까지의 데이터를 확인하실 수 있습니다. 
-- 다만 국가와 날짜 정보 외에는 feature 로 사용할만한 데이터가 없어서 파이널 프로젝트로 진행하기에는 조금 어려울 수 있을 것 같습니다. 
-- 다만 외부 데이터를 찾아서 활용하거나, 다양한 시계열 예측 모델들을 적용해서 비교해보거나, 성능을 최대한 향상시키는 방향으로 진행해볼 수 있습니다 
+- 세계 각국의 코로나 확진자, 사망자 추이 예측 문제입니다. 
+- 이 데이터셋의 경우 국가와 날짜 정보 외에는 feature로 사용할만한 데이터가 없어서 프로젝트를 진행하기에 어려운 점이 있을 수 있습니다. 
+- 이럴 때에는 외부 데이터를 찾아서 활용하거나, 다양한 아키텍처들을 비교하는 형식으로 프로젝트를 진행해볼 수 있을 것 같습니다! 
 
 3. [**G-Research Crypto Forecasting**](https://www.kaggle.com/competitions/g-research-crypto-forecasting/overview)
-- 여러가지 가상화폐의 시가, 종가, 거래량 등의 정보를 통해 수익을 예측하는 문제입니다! 
+- 시가, 종가, 거래량 등의 feature를 사용해 여러가지 가상화폐의 수익을 예측하는 컴피티션입니다
 
 4. [**Ubiquant Market Prediction**](https://www.kaggle.com/competitions/ubiquant-market-prediction/overview)
-- 3번과 비슷한 가격 에측문제입니다! 
-- 이런 데이터셋의 경우 용량이 엄청 크기 때문에 이점 유의하셔서 선택해주셔야 합니다. 
+- 3번과 비슷한 가격 예측문제입니다! 
+- 이런 데이터셋의 경우 용량이 매우 크기 때문에 이점 유의하셔서 선택해주셔야 합니다. 
+- 300개의  feature가 주어져있는데 각 feature가 어떤 것인지가 알려져있지 않은 것도 이 데이터셋의 특징이라고 볼 수 있습니다. 
 
 이 외에도 [Kaggle Competitions](https://www.kaggle.com/competitions)에서 time/forecast 등을 검색해보시면 다양한 시계열 예측 컴피티션을 찾을 수 있습니다. 
 
@@ -45,7 +45,7 @@
 
 **pre-processing / feature extraction / EDA + Visualization / baseline model**
 
-- **Pre-Processing** : 데이터의 특성상 전처리가 필요한 경우가 있습니다. 예를 들어, 시계열 변수가 포함되어 있거나, 범주형 변수를 numeric하게 코딩하기, NA imputation 등이 있을 수 있습니다. 또한 데이터의 분포와 단위 차이를 모두 고려하여 적절하게 변환 및 스케일링을 해야 합니다. 모든 변수의 분포가 같을 필요는 없지만, 같은 단위에 있는 것이 바람직합니다. 
+- **Pre-Processing** : 데이터의 특성상 전처리가 필요한 경우가 있습니다. 예를 들어, 범주형 변수를 numeric하게 코딩하기, 결측값이 있는 경우 NA imputation 등이 있을 수 있습니다. 또한 데이터의 분포와 단위 차이를 모두 고려하여 적절하게 변환 및 스케일링을 해야 합니다. 모든 변수의 분포가 같을 필요는 없지만, 같은 단위에 있는 것이 바람직합니다. 
 
 - **Feature Extraction** : 여러 변수를 합쳐서 새로운 변수를 만들거나, 외부 데이터에서 얻은 변수로 새로운 feature를 추가하거나, correlation analysis 등을 통해 multicolinearity가 있는 변수를 분석에서 제외하는 등의 작업입니다. 변수들 끼리 상관관계가 높은 경우 단순히 삭제를 할 수도 있고, 잠재변수를 바탕으로 새로운 변수를 만들 수도 있습니다.
 
@@ -53,17 +53,15 @@
 
 - **EDA+Visualization** : EDA는 Pre-Processing과 Feature Extraction과 병행하여 데이터에 대해 알아가는 1주차 전반에 걸쳐 시행합니다. 기본적인 기술통계량이나 skewness를 보거나, normal assumption을 적용할 수 있는지, 변수 재정의가 필요하지는 않은지 파악합니다. 또한, 데이터의 분포를 눈으로 파악하는 것이 직관을 줄 수 있습니다. 설명변수와 응답변수 간, 혹은 설명변수 간의 산점도를 그려 선형/비선형 관계를 파악하거나, 데이터 이해에 도움이 되는 시각화를 해봅니다. 
 
-- **Baseline model** : 성능향상을 목표로 하는 컴피티션의 경우에, 베이스라인 모델을 설정해서 적합해보는 것도 좋습니다! 베이스라인 모델의 성능을 기준점으로 성능을 향상시킨다고 생각해주시면 됩니다. 1주차에 기본적인 모델로 피팅을 시켜 스코어 기준점을 잡아주시는 과정을 거쳐도 좋습니다. 이때의 모델은 가장 기본이 되는 바닐라 모델 쉬운 모델 등을 사용해주셔도 됩니다. 
+- **Baseline model** : 성능향상을 목표로 하는 컴피티션의 경우에, baseline model을 정해서 fitting 해보는 것도 좋습니다! baseline 모델을 fitting해보며 데이터에 대한 이해를 높일수도 있고, baseline model의 score를 기준점 삼아 성능을 향상시키기도 수월합니다. 
 
-👩‍🏫 **중간점검(5/19 목)** 조별로 돌아가면서 10분 내외로 간단하게 현재까지 진행상황 발표해주시면 됩니다. 프로젝트의 목표, 데이터 개형, 1주차 수행 결과 및 앞으로의 계획, 진행하면서 어려운 점이나 궁금한 점 등을 공유해주시면 됩니다. 
+👩‍🏫 **중간점검(5/19 목)** 조별로 돌아가면서 10분 내외로 간단하게 현재까지 진행상황 발표해주시면 됩니다. 각 조의 진행상황에 맞게 프로젝트의 목표, 데이터 개형, 1주차 수행 결과 및 앞으로의 계획, 진행하면서 어려운 점이나 궁금한 점 등을 정리해서 공유해주시면 됩니다. 
 
 ## week 2
 
 **Modeling / Model Selection / Evaluation**
 
-Bayesian Linear Regression 방법을 사용해 전 주에 준비한 설명변수들을 종합적으로 고려하여 모델을 만듭니다.
-
-- **Modeling** : baseline model을 개선시킬 수 있는 방법은 없을까요? 성능을 개선할 수 있는 모델 등을 적합시켜봅시다. 
+- **Modeling** : baseline model을 fitting해보았다면, 그 score를 기준으로 성능을 향상시킬 수 있는 방법은 없을지 생각해봅시다. 
 
 - **Model Selection** : 모델 설렉션의 의미는 크게 2 가지입니다. 모델의 CV 에러(Bias - Variance Tradeoff), 모델의 해석 가능 여부 등을 고려합니다.
 
@@ -76,6 +74,7 @@ Bayesian Linear Regression 방법을 사용해 전 주에 준비한 설명변수
 
 ## Reference
 
+- 컴피티션 
 각 컴피티션 리더보드
 
 이전기수 파이널프로젝트 repository
