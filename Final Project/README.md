@@ -2,7 +2,32 @@
 
 ## choose dataset
 
-각 조에서 어떤 데이터셋을 가지고 파이널 프로젝트를 진행할지 선택합니다. 아래 소개된 데이터셋 중에서 선택해도 되고, 다른 컴피티션의 데이터셋을 사용해도 됩니다. 소개된 데이터셋이 아닌 다른 컴피티션의 데이터셋을 사용하고 싶다면 [Kaggle Competitions](https://www.kaggle.com/competitions)에 접속해서 찾아보시면 됩니다. 
+각 조에서 어떤 데이터셋을 가지고 파이널 프로젝트를 진행할지 선택합니다. 아래 소개된 데이터셋 중에서 선택해도 되고, 다른 컴피티션의 데이터셋을 사용해도 됩니다. 소개된 데이터셋이 아닌 다른 컴피티션의 데이터셋을 사용하고 싶다면 [Kaggle Competitions](https://www.kaggle.com/competitions)에 접속해서 찾아보시면 됩니다. (cv keyword: image/video/vision 등, time series keyword: time/forecast 등)
+
+**cv dataset examples**
+
+- [Digit Recognizer](https://www.kaggle.com/competitions/digit-recognizer-  ㅇ
+- [UNIFESP X-ray Body Part Classifier](https://www.kaggle.com/competitions/unifesp-x-ray-body-part-classifier/overview)
+
+**time series dataset examples**
+
+- [Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview)
+- [COVID19 Global Forecasting (Week 4)](https://www.kaggle.com/competitions/covid19-global-forecasting-week-4/overview)
+- [G-Research Crypto Forecasting](https://www.kaggle.com/competitions/g-research-crypto-forecasting/overview)
+- [Ubiquant Market Prediction](https://www.kaggle.com/competitions/ubiquant-market-prediction/overview)
+
+1. 날짜별로 어떤 가게의 어떤 물품이 얼마만큼 팔렸는지를 예측하는 문제! getting started이긴 한데 추가적으로 주어지는 데이터들이 많아서 각팀이 얼마만큼 하느냐에 달린 문제일 것 같음!
+https://www.kaggle.com/competitions/store-sales-time-series-forecasting/code 
+
+2. 코로나 확진자, 사망자 예측문제! 국가랑 날짜 정보 외에는 제공되는 데이터가 없어서 힘들것같기도…(그냥 예측하긴 쉽겠지만 더 뭐 할게 없어서 발표할 내용이 없을 것 같아서 힘들것같다는 의미)
+https://www.kaggle.com/competitions/covid19-global-forecasting-week-4/data 
+
+3. 가상화폐 가격예측 문제! 여러개의 가상화폐들에 대해서 시가, 종가, 거래량으로 수익을 예측하는 문제
+https://www.kaggle.com/competitions/g-research-crypto-forecasting/data?select=train.csv 
+
+4. 이것도 비슷한 가격 에측 문제..! 근데 데이터 용량이 엄청 크다… 3번이랑 비슷해서 빼도 될 것 같기도… 
+https://www.kaggle.com/competitions/ubiquant-market-prediction/data 
+
 
 ## week 1
 
