@@ -9,10 +9,13 @@
 🗂 **cv dataset examples**
 
 1. [**Digit Recognizer**](https://www.kaggle.com/competitions/digit-recognizer)
-- 지금까지 많이 접했었던 MNIST 데이터셋입니다! 손글씨 이미지 데이터를 통해 그것이 무슨 숫자인지 예측하는 데이터셋
-- 이런 경우에 단순히 모델 하나를 적용하기 보다는 다양한 모델을 적용해서 비교해보기도 하고, 데이터 전처리를 통해 데이터의 수를 늘려보기도 하고, 하이퍼파라미터 튜닝을 통해 최적의 모델을 찾는 등 성능을 최고로 끌어내는 것을 목표로 삼아볼 수 잇겠죠! 
+- 지금까지 자주 접한 MNIST 데이터셋입니다! 손으로 쓴 숫자 이미지 데이터를 사용해 각 이미지가 어느 숫자인지를 분류하는 컴피티션입니다. 
+- MNIST 데이터셋 쉽다고 생각하실 수도 있지만, 성능을 최대한 향상시키는 것을 목표로 삼아본다면 파이널 프로젝트 주제가 될 수 있습니다! 딥러닝 아키텍처 간 성능을 비교해보기도 하고, data augmentation을 적용해보기도 하며 성능을 향상시켜볼 수 있습니다! 
 
 2. [**UNIFESP X-ray Body Part Classifier**](https://www.kaggle.com/competitions/unifesp-x-ray-body-part-classifier/overview)
+- MNIST와 비슷한 이미지 분류 문제입니다. 
+- 신체 각 부위를 찍은 엑스레이 이미지를 사용해 각 이미지가 어느 
+- 
 - 이미지 분류 문제입니다! 각 엑스레이 이미지를 가지고 그 사진이 신체의 어느 부분을 찍은 것인지를 예측하는 문제
 - MNIST와 비슷하게 성능을 끌어올리는 것이 목표
 
@@ -23,7 +26,6 @@
 1. [**Store Sales - Time Series Forecasting**](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview)
 - 날짜별로 어떤 가게의 어떤 물품이 얼마만큼 팔렸는지를 에측하는 문제, 
 - 기본 컴피티션이긴 하지만, train데이터셋 외에도 다양한 정보가 제공되기 때문에 이 정보들을 어떻게 활용할지가 관건인 컴피티션입니다! 
-
 
 2. [**COVID19 Global Forecasting (Week 4)**](https://www.kaggle.com/competitions/covid19-global-forecasting-week-4/overview)
 - 세계 각국의 코로나 확진자, 사망자 추이 예측 문제입니다. 4주차만 걸어놨지만 1주차부터 5주차까지의 데이터를 확인하실 수 있습니다. 
@@ -41,7 +43,7 @@
 
 ## week 1
 
-1주차에 해야할 일은 다음과 같습니다. 모든 단계를 해야하는 것은 아니고 각 조의 프로젝트 상황에 맞게 수행해주시면 됩니다. 
+1주차에 해야할 일은 다음과 같습니다. 모든 과정을 다 해야하는 것은 아닙니다! 각 조의 프로젝트 상황에 맞게 수행해주시면 됩니다. 
 
 **pre-processing / feature extraction / EDA + Visualization / baseline model**
 
@@ -53,27 +55,22 @@
 
 - **EDA+Visualization** : EDA는 Pre-Processing과 Feature Extraction과 병행하여 데이터에 대해 알아가는 1주차 전반에 걸쳐 시행합니다. 기본적인 기술통계량이나 skewness를 보거나, normal assumption을 적용할 수 있는지, 변수 재정의가 필요하지는 않은지 파악합니다. 또한, 데이터의 분포를 눈으로 파악하는 것이 직관을 줄 수 있습니다. 설명변수와 응답변수 간, 혹은 설명변수 간의 산점도를 그려 선형/비선형 관계를 파악하거나, 데이터 이해에 도움이 되는 시각화를 해봅니다. 
 
-- **Baseline model** : 성능향상을 목표로 하는 컴피티션의 경우에, 1주차에 기본적인 모델로 피팅을 시켜 스코어 기준점을 잡아주시는 과정을 거쳐도 좋습니다. 이때의 모델은 가장 기본이 되는 바닐라 모델 쉬운 모델 등을 사용해주셔도 됩니다. 
+- **Baseline model** : 성능향상을 목표로 하는 컴피티션의 경우에, 베이스라인 모델을 설정해서 적합해보는 것도 좋습니다! 베이스라인 모델의 성능을 기준점으로 성능을 향상시킨다고 생각해주시면 됩니다. 1주차에 기본적인 모델로 피팅을 시켜 스코어 기준점을 잡아주시는 과정을 거쳐도 좋습니다. 이때의 모델은 가장 기본이 되는 바닐라 모델 쉬운 모델 등을 사용해주셔도 됩니다. 
 
 👩‍🏫 **중간점검(5/19 목)** 조별로 돌아가면서 10분 내외로 간단하게 현재까지 진행상황 발표해주시면 됩니다. 프로젝트의 목표, 데이터 개형, 1주차 수행 결과 및 앞으로의 계획, 진행하면서 어려운 점이나 궁금한 점 등을 공유해주시면 됩니다. 
 
 ## week 2
 
-
 **Modeling / Model Selection / Evaluation**
 
 Bayesian Linear Regression 방법을 사용해 전 주에 준비한 설명변수들을 종합적으로 고려하여 모델을 만듭니다.
 
-- **Modeling** : Frequentist 관점에서 일반적인 회귀 모형을 우선 적합시켜 보고, Bayesian Linear Regression을 통해서도 학습을 진행합니다. 두 방법론 간에 어떤 차이가 있을까요?
+- **Modeling** : baseline model을 개선시킬 수 있는 방법은 없을까요? 성능을 개선할 수 있는 모델 등을 적합시켜봅시다. 
 
 - **Model Selection** : 모델 설렉션의 의미는 크게 2 가지입니다. 모델의 CV 에러(Bias - Variance Tradeoff), 모델의 해석 가능 여부 등을 고려합니다.
 
   1. 모델 자체의 선택: 예컨대 로지스틱 회귀를 쓸지, SVM을 쓸지, Random Forest를 쓸지, 혹은 이 모두를 함께 쓰는 Voting Classifier를 쓸지 결정합니다.
-  2. 모델 내 변수의 선택: 어떤 변수를 쓸지, 어떤 잠재변수를 고려할지 등을 결정합니다. (이번 주에 배운 내용!)
-
-  그렇지만 이번 프로젝트의 경우 크게 linear regression 한 가지 모델을 사용하기 때문에 2번 모델 내 변수의 선택에 해당합니다.
-
-  빈도론적 관점에서 회귀분석을 실시하였다면 forward / backward selection, information criterion 등을 사용하여 model selection을 할 수 있겠고, 이번 주에 배운 내용을 토대로 Bayesian model selection을 통해서도 feature selection을 하여 결과를 비교해보세요. 두 관점 모두에서 적용 및 해석이 가능한 Lasso / Ridge 등의 penalizing method를 사용할 수도 있습니다.
+  2. 모델 내 변수의 선택: 어떤 변수를 쓸지, 어떤 잠재변수를 고려할지 등을 결정합니다. 
 
 - **Evaluation** : 분석 과제에 맞게 metric을 정하고 그를 바탕으로 모델의 성능을 평가합니다. 캐글 컴피티션의 경우 overview > evaluation 에 들어가면 어떤 score를 사용하는지를 확인하실 수 있습니다.
 
